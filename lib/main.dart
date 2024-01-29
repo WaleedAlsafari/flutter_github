@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const GithubApp());
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class GithubApp extends StatefulWidget {
+  const GithubApp({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<GithubApp> createState() => _GithubAppState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _GithubAppState extends State<GithubApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
